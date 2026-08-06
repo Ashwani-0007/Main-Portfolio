@@ -19,6 +19,7 @@
   }
 
   .logo-text {
+    margin-left: -0.9rem;
     font-size: 15px;
   }
 
@@ -135,6 +136,7 @@
   }
 
   .logo-text {
+    margin-left: -0.6rem;
     font-size: 18px;
   }
 
@@ -147,12 +149,33 @@
     height: 220px;
   }
 
+  .faded-text {
+    position: absolute;
+    user-select: none;
+    font-size: clamp(4rem, 10vw, 7em);
+    color: var(--lightGray);
+    bottom: -11.5%;
+    left: -2%;
+    font-weight: bold;
+    z-index: -1;
+  }
+
   .project-card {
     min-height: 300px;
   }
 
   .project-content {
     bottom: 6%;
+  }
+
+  .skill-fade-text {
+    position: absolute;
+    font-size: clamp(4rem, 10vw, 8em);
+    color: var(--lightGray);
+    bottom: -02.55%;
+    right: -2%;
+    user-select: none;
+    pointer-events: none;
   }
 }
 
@@ -186,6 +209,66 @@
 
   .skill-container-right {
     margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
+  .container {
+    width: 92%;
+  }
+
+  .nav-items div {
+    font-size: 16px;
+  }
+
+  .hero-section {
+    gap: 2rem;
+  }
+
+  .user-image img {
+    width: 220px;
+    height: 260px;
+  }
+
+  .faded-text {
+    position: absolute;
+    user-select: none;
+    font-size: clamp(4rem, 10vw, 7em);
+    color: var(--lightGray);
+    bottom: -17.5%;
+    left: -2%;
+    font-weight: bold;
+    z-index: -1;
+  }
+
+  .project-card {
+    width: min(600px, 95%);
+  }
+
+  .project-content {
+    padding: 1.25rem;
+    bottom: 5%;
+    max-width: 92%;
+  }
+
+  .skill-container-left,
+  .skill-container-right,
+  .qspider-left {
+    flex-basis: 100%;
+  }
+
+  .skill-container-right {
+    margin-top: 0;
+  }
+
+  .skill-fade-text {
+    position: absolute;
+    font-size: clamp(4rem, 10vw, 8em);
+    color: var(--lightGray);
+    bottom: -03.5%;
+    right: -2%;
+    user-select: none;
+    pointer-events: none;
   }
 }
 
