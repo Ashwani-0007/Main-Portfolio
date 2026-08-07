@@ -74,8 +74,20 @@
 
   .project-content {
     padding: 1.25rem;
-    bottom: 5%;
+    /* bottom: 5%; */
+    top: 0%;
     max-width: 92%;
+  }
+  .project1 .vercel {
+    display: none;
+  }
+
+  .project1 .redux {
+    display: none;
+  }
+
+  .project1 .mongo {
+    display: none;
   }
 
   .project-heading {
@@ -119,6 +131,198 @@
   .formfield {
     font-size: 16px;
     padding: 0 1rem;
+  }
+}
+
+@media only screen and (min-width: 479px) and (max-width: 533px) {
+  .navbar {
+    gap: 1rem;
+  }
+
+  .nav-items div {
+    font-size: 15px;
+  }
+
+  .logo {
+    width: 35px;
+  }
+
+  .logo-text {
+    margin-left: -0.6rem;
+    font-size: 18px;
+  }
+
+  .hero-section-sub-heading {
+    font-size: 32px;
+  }
+
+  .user-image img {
+    width: 180px;
+    height: 220px;
+  }
+
+  .faded-text {
+    position: absolute;
+    user-select: none;
+    font-size: clamp(4rem, 10vw, 7em);
+    color: var(--lightGray);
+    bottom: -10.5%;
+    left: -2%;
+    font-weight: bold;
+    z-index: -1;
+  }
+
+  .project1 .vercel {
+    display: none;
+  }
+
+  .project1 .redux {
+    display: none;
+  }
+
+  .project1 .mongo {
+    display: none;
+  }
+  .project-card {
+    min-height: 300px;
+  }
+
+  .project-content {
+    padding: 1.25rem;
+    top: 0%;
+    max-width: 92%;
+  }
+
+  .skill-fade-text {
+    position: absolute;
+    font-size: clamp(4rem, 10vw, 8em);
+    color: var(--lightGray);
+    bottom: -01.6%;
+    right: -2%;
+    user-select: none;
+    pointer-events: none;
+  }
+}
+
+@media only screen and (min-width: 479px) and (max-width: 644px) {
+  .navbar {
+    gap: 1rem;
+  }
+
+  .nav-items div {
+    font-size: 15px;
+  }
+
+  .logo {
+    width: 35px;
+  }
+
+  .logo-text {
+    margin-left: -0.6rem;
+    font-size: 18px;
+  }
+
+  .hero-section-sub-heading {
+    font-size: 32px;
+  }
+
+  .user-image img {
+    width: 180px;
+    height: 220px;
+  }
+
+  .faded-text {
+    position: absolute;
+    user-select: none;
+    font-size: clamp(4rem, 10vw, 7em);
+    color: var(--lightGray);
+    bottom: -17%;
+    left: -2%;
+    font-weight: bold;
+    z-index: -1;
+  }
+
+  .project1 .vercel {
+    display: none;
+  }
+
+  .project-card {
+    min-height: 300px;
+  }
+
+  .project-content {
+    padding: 1.25rem;
+    top: 0%;
+    max-width: 92%;
+  }
+
+  .skill-fade-text {
+    position: absolute;
+    font-size: clamp(4rem, 10vw, 8em);
+    color: var(--lightGray);
+    bottom: -02.55%;
+    right: -2%;
+    user-select: none;
+    pointer-events: none;
+  }
+}
+
+@media only screen and (min-width: 645px) and (max-width: 698px) {
+  .navbar {
+    gap: 1rem;
+  }
+
+  .nav-items div {
+    font-size: 15px;
+  }
+
+  .logo {
+    width: 35px;
+  }
+
+  .logo-text {
+    margin-left: -0.6rem;
+    font-size: 18px;
+  }
+
+  .hero-section-sub-heading {
+    font-size: 32px;
+  }
+
+  .user-image img {
+    width: 180px;
+    height: 220px;
+  }
+
+  .faded-text {
+    position: absolute;
+    user-select: none;
+    font-size: clamp(4rem, 10vw, 7em);
+    color: var(--lightGray);
+    bottom: -11.5%;
+    left: -2%;
+    font-weight: bold;
+    z-index: -1;
+  }
+
+  .project-card {
+    min-height: 300px;
+  }
+
+  .project-content {
+    padding: 1.25rem;
+    bottom: 5%;
+    max-width: 92%;
+  }
+
+  .skill-fade-text {
+    position: absolute;
+    font-size: clamp(4rem, 10vw, 8em);
+    color: var(--lightGray);
+    bottom: -02.55%;
+    right: -2%;
+    user-select: none;
+    pointer-events: none;
   }
 }
 
@@ -197,8 +401,23 @@
     height: 260px;
   }
 
+  .faded-text {
+    position: absolute;
+    user-select: none;
+    font-size: clamp(4rem, 10vw, 7em);
+    color: var(--lightGray);
+    bottom: -17%;
+    left: -2%;
+    font-weight: bold;
+    z-index: -1;
+  }
+
   .project-card {
     width: min(600px, 95%);
+  }
+
+  .project-content {
+    bottom: 2%;
   }
 
   .skill-container-left,
@@ -210,9 +429,19 @@
   .skill-container-right {
     margin-top: 0;
   }
+
+  .skill-fade-text {
+    position: absolute;
+    font-size: clamp(4rem, 10vw, 8em);
+    color: var(--lightGray);
+    bottom: -03.5%;
+    right: -2%;
+    user-select: none;
+    pointer-events: none;
+  }
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1000px) {
+/* @media only screen and (min-width: 992px) and (max-width: 1000px) {
   .container {
     width: 92%;
   }
@@ -270,9 +499,24 @@
     user-select: none;
     pointer-events: none;
   }
-}
+} */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 94%;
+  }
+
+  .project-card {
+    width: min(650px, 90%);
+  }
+
+  .user-image img {
+    width: 230px;
+    height: 280px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
   .container {
     width: 94%;
   }
