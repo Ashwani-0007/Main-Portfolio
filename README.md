@@ -70,7 +70,7 @@ portfolio/
 ├── images/
 │   ├── profile.png
 │   ├── logo.png
-│   └── ...
+│   └── ....
 │
 ├
 │
